@@ -1,5 +1,5 @@
 def plus(a, b):
-  return int(a) + len(b)
+  return int(a) + int(b)
 
 def minus(a, b):
   return int(a) - int(b)
@@ -19,7 +19,7 @@ def power(a, b):
 def reminder(a, b):
   return int(a) % int(b)
 
-r_plus = plus(3, "hello")
+r_plus = plus(3, 2)
 r_minus = minus(4, 2)
 r_times = times(3, 2)
 r_division = division(6, 2)
@@ -34,6 +34,3 @@ print(r_division)
 print(r_negation)
 print(r_power)
 print(r_reminder)
-
-r_plus = plus(3, 2)
-print(r_plus)
