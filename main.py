@@ -1,26 +1,36 @@
-# def p_plus(a, b):
-#   return a + b
+def plus(a, b):
+  return int(a) + int(b)
 
-# def r_plus(a, b):
-#   return a + b
+def minus(a, b):
+  return int(a) - int(b)
 
-# p_result = p_plus(10, 5)
-# r_result = r_plus(20, 10)
+def times(a, b):
+  return int(a) * int(b)
 
+def division(a, b):
+  return int(a) / int(b)
 
-# print(p_result, r_result)
+def negation(a, b):
+  return -int(a), -int(b)
 
-def r_plus(a, b):
-  return a + b
-  print("sometning llfdlskafjdoasifdujapofiudaspofudafjd", True)
+def power(a, b):
+  return int(a) ** int(b)
 
-r_result = r_plus(2, 4)
+def reminder(a, b):
+  return int(a) % int(b)
 
-print(r_result)
+r_plus = plus(3, 2)
+r_minus = minus(4, 2)
+r_times = times(3, 2)
+r_division = division(6, 2)
+r_negation = negation(5, 2)
+r_power = power(7, 2)
+r_reminder = reminder(5, 2)
 
-def p_plus(a, b):
-  print(a + b)
-
-p_result = p_plus(2, 4)
-
-print(p_result)
+print(r_plus)
+print(r_minus)
+print(r_times)
+print(r_division)
+print(r_negation)
+print(r_power)
+print(r_reminder)
